@@ -15,11 +15,9 @@ layout:
   /container-main/:
     -
       -
-        'aside 25': {  }
+        'mainbar 75': {  }
       -
-        'mainbar 50': {  }
-      -
-        'sidebar 25':
+        'sidebar-right 25':
           -
             - custom-5193
   footer: {  }
@@ -88,15 +86,6 @@ structure:
         - attributes
         - block
         - children
-  aside:
-    inherit:
-      outline: default
-      include:
-        - attributes
-        - block
-        - children
-    block:
-      fixed: '1'
   mainbar:
     type: section
     subtype: main
@@ -106,13 +95,12 @@ structure:
         - attributes
         - block
         - children
-  sidebar:
+  sidebar-right:
     type: section
-    subtype: aside
     attributes:
       class: ''
     block:
-      fixed: '1'
+      id: g-sidebar
   container-main:
     attributes:
       boxed: ''
@@ -134,5 +122,5 @@ content:
   custom-5193:
     title: 'Custom HTML'
     attributes:
-      html: "{% set content = pages.find('/sidebar').content %}\n{% if content %}\n  {{ content|raw }}\n{% endif %}"
+      html: "{% set content = pages.find('/sidebar-right').content %}\n{% if content %}\n  {{ content|raw }}\n{% endif %}"
       twig: '1'

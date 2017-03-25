@@ -1,0 +1,60 @@
+name: oer_no_sidebars
+timestamp: 1490481250
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1485645696
+positions: {  }
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  header: Header
+  mainbar: Mainbar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  content:
+    system-content-1587: 'Page Content'
+  edit_view_page_in_git:
+    edit_view_page_in_git-6755: 'Edit/View Page in Git'
+  logo:
+    logo-9218: 'Logo / Image'
+    logo-4755: 'Logo / Image'
+  menu:
+    menu-9805: Menu
+  social:
+    social-2570: Social
+  cc_license:
+    cc_license-2665: 'CC License'
+  horizontalmenu:
+    horizontalmenu-3541: 'Horizontal Menu'
+  totop:
+    totop-8942: 'To Top'
+  mobile-menu:
+    mobile-menu-9384: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    header: header
+    intro: intro
+    features: features
+    utility: utility
+    above: above
+    testimonials: testimonials
+    expanded: expanded
+    footer: footer
+    offcanvas: offcanvas
+    logo-9218: logo-9608
+    menu-9805: menu-6409
+    social-2570: social-3171
+    logo-4755: logo-9571
+    cc_license-2665: cc_license-6440
+    horizontalmenu-3541: horizontalmenu-9034
+    totop-8942: totop-8670
+    mobile-menu-9384: mobile-menu-5697

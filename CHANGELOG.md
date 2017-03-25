@@ -1,3 +1,9 @@
+# v0.9.6
+## 03/24/2017
+
+1. [](#improved)
+    * Automatic display of left and/or right sidebars once any content is in either sidebar folder markdown file
+
 # v0.9.5
 ## 03/05/2017
 

@@ -12,13 +12,24 @@ layout:
     -
       - 'menu-9182 67'
       - 'edit_view_page_in_git-4460 33'
-  /main/:
+  /container-main/:
     -
-      - position-breadcrumbs
-    -
-      - system-messages-6459
-    -
-      - system-content-3570
+      -
+        'sidebar-left 25':
+          -
+            - custom-5760
+      -
+        'mainbar 50':
+          -
+            - position-position-4518
+          -
+            - system-messages-7218
+          -
+            - system-content-6323
+      -
+        'sidebar-right 25':
+          -
+            - custom-7535
   /footer/:
     -
       - position-footer
@@ -37,7 +48,13 @@ structure:
     type: section
     attributes:
       boxed: ''
-  main:
+  sidebar-left:
+    type: section
+  mainbar:
+    type: section
+  sidebar-right:
+    type: section
+  container-main:
     attributes:
       boxed: ''
   footer:
@@ -55,9 +72,19 @@ content:
     block:
       class: git-edit
       variations: align-right
-  position-breadcrumbs:
+  custom-5760:
+    title: 'Custom HTML'
     attributes:
-      key: breadcrumbs
+      html: "{% set content = pages.find('/sidebar-left').content %}\n{% if content %}\n  {{ content|raw }}\n{% endif %}"
+      twig: '1'
+  position-position-4518:
+    attributes:
+      key: position-4518
+  custom-7535:
+    title: 'Custom HTML'
+    attributes:
+      html: "{% set content = pages.find('/sidebar-right').content %}\n{% if content %}\n  {{ content|raw }}\n{% endif %}"
+      twig: '1'
   position-footer:
     attributes:
       key: footer

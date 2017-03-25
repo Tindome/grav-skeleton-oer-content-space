@@ -19,9 +19,9 @@ layout:
   /container-main/:
     -
       -
-        'aside 25':
+        'sidebar-left 25':
           -
-            - position-position-4734
+            - custom-4647
       -
         'mainbar 50':
           -
@@ -29,9 +29,9 @@ layout:
           -
             - edit_view_page_in_git-6755
       -
-        'sidebar 25':
+        'sidebar-right 25':
           -
-            - position-position-3949
+            - custom-8558
   /footer/:
     -
       - 'logo-9571 10'
@@ -75,21 +75,21 @@ structure:
     type: section
     attributes:
       boxed: ''
-  aside:
+  sidebar-left:
+    type: section
     attributes:
       class: ''
     block:
-      fixed: '1'
+      id: g-sidebar
   mainbar:
     type: section
     subtype: main
-  sidebar:
+  sidebar-right:
     type: section
-    subtype: aside
     attributes:
       class: ''
     block:
-      fixed: '1'
+      id: g-sidebar
   container-main:
     attributes:
       boxed: ''
@@ -105,16 +105,18 @@ content:
   social-3171:
     block:
       class: g-social-header
-  position-position-4734:
-    title: Aside
+  custom-4647:
+    title: 'Custom HTML'
     attributes:
-      key: aside
+      html: '{% set content = pages.find(''/sidebar-left'').content %} {% if content %}{{ content|raw }} {% endif %} '
+      twig: '1'
   edit_view_page_in_git-6755:
     title: 'Edit/View Page in Git'
-  position-position-3949:
-    title: Sidebar
+  custom-8558:
+    title: 'Custom HTML'
     attributes:
-      key: sidebar
+      html: '{% set content = pages.find(''/sidebar-right'').content %} {% if content %} {{ content|raw }} {% endif %} '
+      twig: '1'
   logo-9571:
     title: 'Logo / Image'
     attributes:

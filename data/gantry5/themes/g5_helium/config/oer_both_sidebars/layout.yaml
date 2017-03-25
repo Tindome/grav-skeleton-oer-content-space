@@ -17,9 +17,17 @@ layout:
       -
         'sidebar-left 25':
           -
-            - custom-5246
+            - custom-4647
       -
-        'mainbar 75': {  }
+        'mainbar 50':
+          -
+            - system-content-1587
+          -
+            - edit_view_page_in_git-6755
+      -
+        'sidebar-right 25':
+          -
+            - custom-8558
   footer: {  }
   offcanvas: {  }
 structure:
@@ -95,12 +103,14 @@ structure:
   mainbar:
     type: section
     subtype: main
-    inherit:
-      outline: default
-      include:
-        - attributes
-        - block
-        - children
+    attributes:
+      class: ''
+  sidebar-right:
+    type: section
+    attributes:
+      class: ''
+    block:
+      id: g-sidebar
   container-main:
     attributes:
       boxed: ''
@@ -119,8 +129,15 @@ structure:
         - block
         - children
 content:
-  custom-5246:
+  custom-4647:
     title: 'Custom HTML'
     attributes:
       html: "{% set content = pages.find('/sidebar-left').content %}\n{% if content %}\n  {{ content|raw }}\n{% endif %}"
+      twig: '1'
+  edit_view_page_in_git-6755:
+    title: 'Edit/View Page in Git'
+  custom-8558:
+    title: 'Custom HTML'
+    attributes:
+      html: "{% set content = pages.find('/sidebar-right').content %}\n{% if content %}\n  {{ content|raw }}\n{% endif %}"
       twig: '1'

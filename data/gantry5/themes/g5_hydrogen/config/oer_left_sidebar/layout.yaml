@@ -9,17 +9,17 @@ layout:
   /container-main/:
     -
       -
-        'sidebar 25':
+        'sidebar-left 25':
           -
-            - custom-3366
+            - custom-5760
       -
         'mainbar 75':
           -
-            - position-position-9637
+            - position-position-4518
           -
-            - system-messages-6459
+            - system-messages-7218
           -
-            - system-content-3570
+            - system-content-6323
   footer: {  }
   offcanvas: {  }
 structure:
@@ -38,12 +38,14 @@ structure:
         - attributes
         - block
         - children
-  sidebar:
+  sidebar-left:
     type: section
     attributes:
       class: ''
   mainbar:
     type: section
+    attributes:
+      class: ''
   container-main:
     attributes:
       boxed: ''
@@ -62,12 +64,11 @@ structure:
         - block
         - children
 content:
-  custom-3366:
+  custom-5760:
     title: 'Custom HTML'
     attributes:
-      html: "{% set content = pages.find('/sidebar').content %}\n{% if content %}\n  {{ content|raw }}\n{% endif %}"
+      html: "{% set content = pages.find('/sidebar-left').content %}\n{% if content %}\n  {{ content|raw }}\n{% endif %}"
       twig: '1'
-  position-position-9637:
-    title: Breadcrumbs
+  position-position-4518:
     attributes:
-      key: breadcrumbs
+      key: position-4518

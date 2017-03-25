@@ -1,5 +1,5 @@
-name: oer_left_sidebar
-timestamp: 1490478056
+name: oer_sidebars
+timestamp: 1490478066
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -14,45 +14,47 @@ sections:
   navigation: Navigation
   sidebar-left: Sidebar-left
   mainbar: Mainbar
+  sidebar-right: Sidebar-right
   footer: Footer
   offcanvas: Offcanvas
 particles:
   logo:
-    logo-3132: Logo
+    logo-1145: Logo
   position:
-    position-position-4186: Header
+    position-position-2556: Header
     position-position-4518: Position-4518
-    position-position-7591: Footer
+    position-position-8518: Footer
   menu:
-    menu-9424: Menu
+    menu-4120: Menu
   edit_view_page_in_git:
-    edit_view_page_in_git-2241: 'Edit/View Page in Git'
+    edit_view_page_in_git-8587: 'Edit/View Page in Git'
   custom:
     custom-5760: 'Custom HTML'
+    custom-7535: 'Custom HTML'
   messages:
     system-messages-7218: 'System Messages'
   content:
     system-content-6323: 'Page Content'
   cc_license:
-    cc_license-4306: 'CC License'
+    cc_license-3470: 'CC License'
   spacer:
-    spacer-5395: Spacer
+    spacer-8663: Spacer
   branding:
-    branding-8899: Branding
+    branding-8969: Branding
   mobile-menu:
-    mobile-menu-8977: Mobile-menu
+    mobile-menu-9423: Mobile-menu
 inherit:
   default:
     header: header
-    logo-3132: logo-2843
-    position-position-4186: position-header
+    logo-1145: logo-2843
+    position-position-2556: position-header
     navigation: navigation
-    menu-9424: menu-9182
-    edit_view_page_in_git-2241: edit_view_page_in_git-4460
+    menu-4120: menu-9182
+    edit_view_page_in_git-8587: edit_view_page_in_git-4460
     footer: footer
-    position-position-7591: position-footer
-    cc_license-4306: cc_license-8818
-    spacer-5395: spacer-8764
-    branding-8899: branding-2958
+    position-position-8518: position-footer
+    cc_license-3470: cc_license-8818
+    spacer-8663: spacer-8764
+    branding-8969: branding-2958
     offcanvas: offcanvas
-    mobile-menu-8977: mobile-menu-7745
+    mobile-menu-9423: mobile-menu-7745

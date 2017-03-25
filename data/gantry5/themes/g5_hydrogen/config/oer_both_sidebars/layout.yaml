@@ -9,7 +9,11 @@ layout:
   /container-main/:
     -
       -
-        'mainbar 75':
+        'sidebar-left 25':
+          -
+            - custom-5760
+      -
+        'mainbar 50':
           -
             - position-position-4518
           -
@@ -38,6 +42,10 @@ structure:
         - attributes
         - block
         - children
+  sidebar-left:
+    type: section
+    attributes:
+      class: ''
   mainbar:
     type: section
     attributes:
@@ -64,6 +72,11 @@ structure:
         - block
         - children
 content:
+  custom-5760:
+    title: 'Custom HTML'
+    attributes:
+      html: "{% set content = pages.find('/sidebar-left').content %}\n{% if content %}\n  {{ content|raw }}\n{% endif %}"
+      twig: '1'
   position-position-4518:
     attributes:
       key: position-4518

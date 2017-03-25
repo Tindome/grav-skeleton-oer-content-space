@@ -15,11 +15,11 @@ layout:
   /container-main/:
     -
       -
-        'sidebar-left 25':
+        mainbar:
           -
-            - custom-5246
-      -
-        'mainbar 75': {  }
+            - system-content-1587
+          -
+            - edit_view_page_in_git-6755
   footer: {  }
   offcanvas: {  }
 structure:
@@ -86,21 +86,11 @@ structure:
         - attributes
         - block
         - children
-  sidebar-left:
-    type: section
-    attributes:
-      class: ''
-    block:
-      id: g-sidebar
   mainbar:
     type: section
     subtype: main
-    inherit:
-      outline: default
-      include:
-        - attributes
-        - block
-        - children
+    attributes:
+      class: ''
   container-main:
     attributes:
       boxed: ''
@@ -119,8 +109,5 @@ structure:
         - block
         - children
 content:
-  custom-5246:
-    title: 'Custom HTML'
-    attributes:
-      html: "{% set content = pages.find('/sidebar-left').content %}\n{% if content %}\n  {{ content|raw }}\n{% endif %}"
-      twig: '1'
+  edit_view_page_in_git-6755:
+    title: 'Edit/View Page in Git'
