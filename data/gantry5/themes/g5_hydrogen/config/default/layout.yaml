@@ -61,6 +61,10 @@ structure:
     attributes:
       boxed: ''
 content:
+  logo-2843:
+    attributes:
+      image: ''
+      text: 'OER Content Space'
   position-header:
     attributes:
       key: header

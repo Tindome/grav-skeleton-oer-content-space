@@ -32,3 +32,8 @@ body {
 #g-sidebar, #g-aside {
   padding: 0;
 }
+/* line 25, user/themes/g5_hydrogen/custom/scss/custom.scss */
+.gantry-logo {
+  font-size: 2rem;
+  font-weight: 900;
+}
