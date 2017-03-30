@@ -1,13 +1,13 @@
 name: oer_right_sidebar
-timestamp: 1490478063
+timestamp: 1490884219
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
   name: default
   timestamp: 1485645719
 positions:
-  header: Header
   position-4518: Position-4518
+  header: Header
   footer: Footer
 sections:
   header: Header
@@ -17,22 +17,22 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
-  logo:
-    logo-1056: Logo
   position:
-    position-position-3948: Header
     position-position-4518: Position-4518
+    position-position-3948: Header
     position-position-7423: Footer
-  menu:
-    menu-8957: Menu
-  edit_view_page_in_git:
-    edit_view_page_in_git-8013: 'Edit/View Page in Git'
   messages:
     system-messages-7218: 'System Messages'
   content:
     system-content-6323: 'Page Content'
   custom:
     custom-7535: 'Custom HTML'
+  logo:
+    logo-1056: Logo
+  menu:
+    menu-8957: Menu
+  edit_view_page_in_git:
+    edit_view_page_in_git-8013: 'Edit/View Page in Git'
   cc_license:
     cc_license-3743: 'CC License'
   spacer:
@@ -44,15 +44,15 @@ particles:
 inherit:
   default:
     header: header
+    navigation: navigation
+    footer: footer
+    offcanvas: offcanvas
     logo-1056: logo-2843
     position-position-3948: position-header
-    navigation: navigation
     menu-8957: menu-9182
     edit_view_page_in_git-8013: edit_view_page_in_git-4460
-    footer: footer
     position-position-7423: position-footer
     cc_license-3743: cc_license-8818
     spacer-8989: spacer-8764
     branding-1957: branding-2958
-    offcanvas: offcanvas
     mobile-menu-1974: mobile-menu-7745

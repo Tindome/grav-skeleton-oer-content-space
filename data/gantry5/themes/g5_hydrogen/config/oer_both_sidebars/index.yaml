@@ -1,13 +1,13 @@
-name: oer_sidebars
-timestamp: 1490478066
+name: oer_both_sidebars
+timestamp: 1490884219
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
   name: default
   timestamp: 1485645719
 positions:
-  header: Header
   position-4518: Position-4518
+  header: Header
   footer: Footer
 sections:
   header: Header
@@ -18,23 +18,23 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
-  logo:
-    logo-1145: Logo
-  position:
-    position-position-2556: Header
-    position-position-4518: Position-4518
-    position-position-8518: Footer
-  menu:
-    menu-4120: Menu
-  edit_view_page_in_git:
-    edit_view_page_in_git-8587: 'Edit/View Page in Git'
   custom:
     custom-5760: 'Custom HTML'
     custom-7535: 'Custom HTML'
+  position:
+    position-position-4518: Position-4518
+    position-position-2556: Header
+    position-position-8518: Footer
   messages:
     system-messages-7218: 'System Messages'
   content:
     system-content-6323: 'Page Content'
+  logo:
+    logo-1145: Logo
+  menu:
+    menu-4120: Menu
+  edit_view_page_in_git:
+    edit_view_page_in_git-8587: 'Edit/View Page in Git'
   cc_license:
     cc_license-3470: 'CC License'
   spacer:
@@ -46,15 +46,15 @@ particles:
 inherit:
   default:
     header: header
+    navigation: navigation
+    footer: footer
+    offcanvas: offcanvas
     logo-1145: logo-2843
     position-position-2556: position-header
-    navigation: navigation
     menu-4120: menu-9182
     edit_view_page_in_git-8587: edit_view_page_in_git-4460
-    footer: footer
     position-position-8518: position-footer
     cc_license-3470: cc_license-8818
     spacer-8663: spacer-8764
     branding-8969: branding-2958
-    offcanvas: offcanvas
     mobile-menu-9423: mobile-menu-7745

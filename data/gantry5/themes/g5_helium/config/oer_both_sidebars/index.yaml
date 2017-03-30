@@ -1,5 +1,5 @@
 name: oer_both_sidebars
-timestamp: 1490481491
+timestamp: 1490884145
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -21,13 +21,6 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
-  logo:
-    logo-4620: 'Logo / Image'
-    logo-4937: 'Logo / Image'
-  menu:
-    menu-5125: Menu
-  social:
-    social-2516: Social
   custom:
     custom-4647: 'Custom HTML'
     custom-8558: 'Custom HTML'
@@ -35,6 +28,11 @@ particles:
     system-content-1587: 'Page Content'
   edit_view_page_in_git:
     edit_view_page_in_git-6755: 'Edit/View Page in Git'
+  logo:
+    logo-4620: 'Logo / Image'
+    logo-4937: 'Logo / Image'
+  menu:
+    menu-5125: Menu
   cc_license:
     cc_license-2220: 'CC License'
   horizontalmenu:
@@ -46,9 +44,6 @@ particles:
 inherit:
   default:
     navigation: navigation
-    logo-4620: logo-9608
-    menu-5125: menu-6409
-    social-2516: social-3171
     header: header
     intro: intro
     features: features
@@ -57,9 +52,11 @@ inherit:
     testimonials: testimonials
     expanded: expanded
     footer: footer
+    offcanvas: offcanvas
+    logo-4620: logo-9608
+    menu-5125: menu-6409
     logo-4937: logo-9571
     cc_license-2220: cc_license-6440
     horizontalmenu-9508: horizontalmenu-9034
     totop-1989: totop-8670
-    offcanvas: offcanvas
     mobile-menu-8948: mobile-menu-5697
