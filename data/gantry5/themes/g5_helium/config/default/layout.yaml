@@ -6,9 +6,8 @@ preset:
 layout:
   /navigation/:
     -
-      - 'logo-9608 15'
-      - 'menu-6409 65'
-      - 'social-3171 20'
+      - 'logo-9608 37'
+      - 'menu-6409 63'
   /header/: {  }
   /intro/: {  }
   /features/: {  }
@@ -102,9 +101,9 @@ structure:
 content:
   logo-9608:
     title: 'Logo / Image'
-  social-3171:
-    block:
-      class: g-social-header
+    attributes:
+      svg: ''
+      text: 'OER Content Space'
   custom-4647:
     title: 'Custom HTML'
     attributes:
