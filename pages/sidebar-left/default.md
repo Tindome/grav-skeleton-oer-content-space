@@ -1,3 +1,3 @@
 ---
-title: Sidebar
+title: Sidebar - left
 ---

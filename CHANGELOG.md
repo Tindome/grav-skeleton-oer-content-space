@@ -1,3 +1,9 @@
+# v0.9.8
+## 04/01/2017
+
+1. [](#bugfix)
+    * Corrected the page titles for the left and right sidebar pages
+
 # v0.9.7
 ## 03/31/2017
 
