@@ -1,6 +1,6 @@
 ---
 title: 'Blog Page'
-hide_git_repo_link: false
+hide_git_repo_link: true
 sitemap:
     changefreq: monthly
 external_links:
